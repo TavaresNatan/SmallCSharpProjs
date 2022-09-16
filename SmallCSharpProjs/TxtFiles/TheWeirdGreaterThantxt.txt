@@ -1,0 +1,14 @@
+void Main()
+{
+/*
+	it took me more than 1y of programming in c# to know the existence of this:
+	
+	Obviusly u can do many different things with this, but ill explain what i did here
+		-Create a variable
+		-Use a Lambda
+			--give it 2 integers and compare which one is bigger
+		-After '?' put the value of true
+		-After ':' put the value of false
+*/
+	var IsGreaterThan = (int n1, int n2) => n1 > n2 ? $"{n1} is greater than {n2}" : $"{n1} is less than {n2}";
+}
